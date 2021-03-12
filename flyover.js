@@ -10,7 +10,6 @@ const fetchISSFlyOverTimes = function(object, callback) {
       callback(Error(msg), null);
       return;
     } else {
-      console.log(JSON.parse(body)); 
       const passes = JSON.parse(body).response;
       callback(null,passes);
       return

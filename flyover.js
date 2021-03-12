@@ -18,4 +18,4 @@ const fetchISSFlyOverTimes = function(object, callback) {
   })
 }
  
- module.exports =  fetchISSFlyOverTimes ;
+ module.exports =  { fetchISSFlyOverTimes } ;
